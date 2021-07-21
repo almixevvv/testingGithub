@@ -1,0 +1,98 @@
+
+*{
+    min-height: 0 !important;
+    border-radius: 0.25em; 
+}
+
+span[contenteditable] { display: inline-block; }
+body {
+    font-size:9px; 
+	font-family:Tahoma  !important;
+    background-color:#ffffff;
+    color: #000;
+}
+.bigger{font-size:11px; }
+.left{float:left}
+.right{float:right}
+a{color:#000000;text-decoration:none;width: 0 !important;padding: 0 !important}
+.page-title, #theme-change, .tools ,table caption div.left, .nonePrint, .breadcrumb, .dateTime, #header, .sidebar-scroll, .btn, .nicescroll-rails,#footer{
+    display:none
+}
+#main-content, #container,.clearfix{margin: 0 !important}
+h2{margin-top:0}
+h3{font-weight: bold;font-size: 16px;margin-top: 0}
+.widget-body,.widget-title > h4, .container-fluid{padding:0 !important}
+.widget{border:none !important}
+.widget-title{height: 25px}
+.widget-title h4{margin: 5px;font-weight: bold}
+#footer{background: none}
+h4{font-size: 14px;margin-top: 0}
+table{
+    border:1px solid #000000;
+    border-collapse:collapse !important;
+    width:100% !important
+}
+tr.even {
+    background-color:#FFFFFF !important;
+}
+th {
+    background-color:#ddd !important;
+    font-weight:bold
+}
+th, td {
+    border:1px solid #000000;
+    font:10px;
+    padding:3px;
+}
+#toHeader,#toHeader td{border: none;padding: 0px}
+.pagination ul{
+    text-align: center;
+    list-style: none;
+}
+.pagination ul li{
+    display: inline;padding: 0 5px;
+}
+.pagination ul li.active a{
+    font-weight: normal; text-decoration: underline;
+}
+pre{margin: 0;font:11px}
+.borbottom, .lapket{border-bottom:1px dotted #000000;padding-bottom:2px;height:15px;line-height:15px;}
+#customerManager td, #supplierManager td{font-size:10px}
+.lapket{color:#0000ff;text-transform:lowercase}
+.red{color:#ff0000}
+
+
+#preview table{border-bottom: none}
+.noBorL{border-left:none !important}
+.widget-title a{
+    color: #FFFF00;
+    text-decoration: underline;
+}
+.widget-title a:hover{color: #FFF;}
+tr.total td{font-weight: normal;font-size: 14px;text-align: right; color: #000;}
+
+
+body {
+    letter-spacing:1px;
+}
+#nota{border-collapse:collapse;border: 1px solid #153878}
+#nota td, #nota th{border: 1px solid #153878;border-top:none;}
+#nota, #nota td{border-bottom:none}
+#nota #trTotal td{border-bottom:1px solid #153878;border-top:1px solid #153878}
+#nota #trTotal td:last-child{border-bottom:1px solid #153878 !important}
+#nota th{border-bottom:1px solid #153878;border-right:1px solid #153878}
+.noBorR{border-right:none !important}
+#nota .noBorL div{position:absolute;background-color:#fff;left:17px;height:30px;width:10px;margin-top:-5px}
+#headerNota2{background: none !important;border: none;margin-top: 0px !important;padding-top: 0 !important;}
+#trTop{border-top: 1px solid #000 !important}
+#headerNota img{width: 150px;}
+ 
+@page { size: auto;  margin: 5mm; }
+ 
+ @media print {
+    * { -webkit-print-color-adjust: exact; }
+    html { background: none; padding: 0; }
+    body { box-shadow: none; margin: 0; }
+    span:empty { display: none; }
+    .add, .cut { display: none; }
+ }

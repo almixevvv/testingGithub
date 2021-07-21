@@ -1,0 +1,23 @@
+.image_menu{
+	cursor:pointer;
+	border:1px solid #FFFFFF;
+	z-index:5;
+}
+.menu_div{
+	position:absolute;
+	z-index:500;
+}
+.menu_table{
+	border: 1px solid #2C445C;
+}
+td.menu_item{
+	background-color:#446A91;
+	font-size:11px;
+	font-weight:bold;
+	color:white;	
+	padding: 3px 1px 3px 5px; /* top, right,bottom, left */	
+	cursor:pointer;
+}
+td.menu_item:hover{
+	background-color:#8AA9C8;
+}

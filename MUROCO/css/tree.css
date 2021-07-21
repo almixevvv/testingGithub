@@ -1,0 +1,92 @@
+td.clsNode{
+	padding:1px 0px 1px 0px;
+}
+.clsNodeClick{
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 11px;
+	font-variant : normal;
+	text-decoration : none;
+	border:1px solid #811B1B;
+	color : #811B1B;
+	padding:0px 2px 0px 2px;
+}
+
+
+.clsNodeL0, .clsNodeL0:visited{
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 11px;
+	font-variant : normal;
+	text-decoration : none;
+	border:1px solid #FFFFFF;
+	color:black;
+	padding:0px 2px 0px 2px;
+}
+.clsNodeL0:hover {
+	color : #811B1B;
+	border:1px solid #CCCCCC;
+}
+
+
+.clsNodeL1, .clsNodeL1:visited{
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 11px;
+	font-variant : normal;
+	text-decoration : none;
+	border:1px solid #FFFFFF;
+	color:black;
+	padding:0px 2px 0px 2px;
+}
+.clsNodeL1:hover{
+	color : #811B1B;
+	border:1px solid #CCCCCC;
+}
+
+
+.clsNodeL2, .clsNodeL2:visited{
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 11px;
+	font-variant : normal;
+	text-decoration : none;
+	border:1px solid #FFFFFF;
+	color:black;
+	padding:0px 2px 0px 2px;
+}
+.clsNodeL2:hover{
+	color : #811B1B;
+	border:1px solid #CCCCCC;
+}
+
+.clsNodeL3, .clsNodeL3:visited{
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 11px;
+	font-variant : normal;
+	text-decoration : none;
+	border:1px solid #FFFFFF;
+	color:black;
+	padding:0px 2px 0px 2px;
+}
+.clsNodeL3:hover{
+	color : #811B1B;
+	border:1px solid #CCCCCC;
+}
+
+
+.clsNodeCompany, .clsNodeCompany:visited{
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 11px;
+	font-variant : normal;
+	text-decoration : none;
+	border:1px solid #FFFFFF;
+	color:#358439;
+	padding:0px 2px 0px 2px;
+}
+.clsNodeCompany:hover{
+	color : #811B1B;
+	border:1px solid #CCCCCC;
+}
